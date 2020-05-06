@@ -11,16 +11,11 @@
 
 2. 怎么用？
 
-  * 引用某一方法
+  * 引用axios方法
  ```
- import services from 'wk-services/services';
+ import utils  from "wk-services";
+ const services = utils.service;
  console.log(services);
- ```
-
-  * 全部引用
- ```
- import _ from 'wk-services';
- console.log(_.services);
  ```
 
 3. 安装
